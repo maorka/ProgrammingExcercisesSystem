@@ -1,0 +1,25 @@
+.homePage{
+    min-height: 500vh; 
+    background-image: url("https://networks.imdea.org/wp-content/uploads/2021/09/media-file-code-900x500.png");
+  }
+  .welcomeText{
+    color: red;
+  }
+  h2{
+  color: red;
+  }
+  .entryButton{
+    cursor: pointer;
+    background-color:rgb(0, 38, 255);
+    border:none;
+    border-radius: 4px;
+    color:white;
+    padding:8px 30px;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .entryButton:active {
+    transform: scale(0.96);
+  }

@@ -1,0 +1,93 @@
+/* .listOfProgramingLang {
+  width: 100%;
+  height: 150px;
+  border: 2px solid black;
+  margin-top: 10px;
+  background-color: rgb(255 193 7 / 77%);
+} */
+.listOfProgramingLang h2{
+  color: red;
+  }
+  
+.mainLang {
+  padding-top: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.langCardMain {
+  width: 130px;
+  height: 80px;
+  background-color: cornsilk;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-top: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+ 
+}
+.langCardMain:active {
+  transform: scale(0.96);
+}
+.langCardMain:hover {
+  background-color: red;
+}
+
+.all-exercises {
+  background-color: rgb(255 193 7 / 77%);
+
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.2);
+}
+.exercise-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.LangFilter {
+  display: flex;
+  justify-content: center;
+}
+.LangFilter * {
+  margin: 0 5px;
+}
+
+.close-btn {
+  cursor: pointer;
+  background-color:rgb(0, 38, 255);
+  border:none;
+  border-radius: 4px;
+  color:white;
+  padding:8px 30px;
+  margin: 10px;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+.close-btn:active {
+  transform: scale(0.96);
+}
+.div-close-btn {
+  text-align: right;
+}
+.userDisconnect-btn{
+  cursor: pointer;
+  background-color:blue;
+  border:none;
+  border-radius: 4px;
+  color:white;
+  padding:8px 30px;
+  margin: 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.userDisconnect-btn:active{
+  transform: scale(0.96);
+}
