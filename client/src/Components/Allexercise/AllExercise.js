@@ -66,7 +66,8 @@ function AllExercise(props) {
 
     console.log(accessToken);
  //   debugger
-    if (accessToken == "" && (props.admin==false||props.admin==undefined)) {
+    if (accessToken == "" && (props.admin==false||props.admin==undefined)) //make alert just for users and not for admin
+    {
         alert("System disconnected,please Sign-UP!");
     }
     const authAxios = axios.create({
