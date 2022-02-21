@@ -65,7 +65,7 @@ function AllExercise(props) {
     }
 
     console.log(accessToken);
- //   debugger
+ //   this change is only in the new test branch
     if (accessToken == "" && (props.admin==false||props.admin==undefined)) //make alert just for users and not for admin
     {
         alert("System disconnected,please Sign-UP!");
